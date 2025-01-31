@@ -16,11 +16,15 @@ Convert plain English questions into SQL queries using OpenAI's GPT-4.
    cd SQL_Query_Generator
 
 2. Install dependencies:
-    '''bash
+    ```bash
     pip install -r requirements.txt
 3. Add your OpenAI API key:
+
     Create a .env file in the project root.
+
     Add the following line:
+    ```bash
     OPENAI_API_KEY=your_api_key_here
 4. Run the app:
+    ```bash
     streamlit run app.py
